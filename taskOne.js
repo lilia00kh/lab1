@@ -4,7 +4,8 @@ exports.hexadecimalNumber = () => {
     let elements = [];
     let i=0;
     let hexadecimalNumber='';
-    do
+    hexString = number.toString(16);
+  /*  do
     {
         elements[i]=number%16;
         number=parseInt(number/16);
@@ -30,7 +31,9 @@ exports.hexadecimalNumber = () => {
         hexadecimalNumber=hexadecimalNumber + elements[i].toString();
     }
 
-    console.log("\nШістнадцяткове число: "+ hexadecimalNumber);
+   */
+
+    console.log("\nШістнадцяткове число: "+ number);
 }
 
 //hexadecimalNumber();
