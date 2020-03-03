@@ -1,12 +1,5 @@
-const {arr} = require('./vars');
 
-
-console.log("\nНаписати функцію, яка посортує масив вставкою");
-console.log(`Невідсортований масив: ${arr}`);
-
-
-
-exports. insertionSort  = fi = (arr)=> {
+exports.insertionSort = fi = (arr)=> {
 
     for (let i = 1; i < arr.length; i++) {
         const current = arr[i];
@@ -21,4 +14,4 @@ exports. insertionSort  = fi = (arr)=> {
 }
 
 ///insertionSort(arr);
-console.log(`Сортування вставкою: ${fi(arr)}`);
+//console.log(`Сортування вставкою: ${fi(arr)}`);

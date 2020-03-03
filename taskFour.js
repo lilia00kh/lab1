@@ -1,9 +1,5 @@
-const {arr2} = require('./vars');
-
 
 exports.frequency = (arr2) => {
-    console.log("\nЗнайти елемент із найбільшою частотою повторень.");
-    console.log("Масив: " + arr2);
 
     let elements = [];
     let result = [];
@@ -27,7 +23,7 @@ exports.frequency = (arr2) => {
         }
         u++;
     }
-    console.log("Елементи масиву: " + elements);
+    //console.log("Елементи масиву: " + elements);
     k = 0;
 
     do {
@@ -40,7 +36,7 @@ exports.frequency = (arr2) => {
         k++;
 
     } while (k < elements.length);
-    console.log("Частота: " + result);
+    //console.log("Частота: " + result);
     //max(result);
     let p = 0;
     let r2 = 0;
@@ -53,7 +49,6 @@ exports.frequency = (arr2) => {
         else r2++;
 
     }
-    console.log("Елемент з максимальною частотою: " + elements[p]);
-    return result;
-}
 
+    return elements[p];
+}
